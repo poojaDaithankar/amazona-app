@@ -33,7 +33,7 @@ const data={
             countInStock: 10,
             brand: 'Jazzy',
             rating: 4.5,
-            numReviews: 10,
+            numReviews: 18,
             description: 'high quality Ladies product',
           },
           {
@@ -57,7 +57,7 @@ const data={
             countInStock: 10,
             brand: 'Fabrange',
             rating: 4.5,
-            numReviews: 10,
+            numReviews: 25,
             description: 'high quality Ladies product',
           },
           {
@@ -69,7 +69,7 @@ const data={
             countInStock: 10,
             brand: 'Tunics',
             rating: 4.5,
-            numReviews: 10,
+            numReviews: 35,
             description: 'high quality Ladies product',
           },
 
