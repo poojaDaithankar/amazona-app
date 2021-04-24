@@ -39,7 +39,7 @@ html{
       color: #ffffff;
     }
     h1 {
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       padding: 1rem 0;
     }
     h2 {
@@ -53,6 +53,40 @@ html{
   {
       color:#ff8000;
   
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  li {
+    margin-top: 1rem;
+  }
+  input,
+select,
+textarea,
+button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #a4a4a4 solid;
+  font-size: 1.6rem;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor:pointer;
+}
+input:hover,
+select:hover,
+textarea:hover,
+button:hover {
+  border: 0.1rem #404040 solid;
+}
+  button.primary {
+    background-color: #f0c040;
+  }
+  button.block {
+    width: 100%;
+    
   }
   header a{
       color:#ffff;
@@ -70,11 +104,25 @@ html{
       justify-content: center;
   
   }
+  .row.top
+  {
+    align-items: flex-start;
+  }
+  .col-1 {
+    flex: 1 1 25rem;
+  }
+  .col-2 {
+    flex: 1 1 25rem;
+  }
+ 
   img {
       border-radius: 0.5rem;
     }
     img.medium {
       max-width: 20rem;
+      width: 100%;
+    }
+    img.large {
       width: 100%;
     }
     .card {
@@ -101,3 +149,13 @@ html{
  {
    color:#404040;
  }
+ .sucess {
+  color: #20a020;
+}
+.error {
+  color: #a02020;
+}
+.alert-success {
+  color: #20a020;
+  background-color: #eeffe0;
+}
