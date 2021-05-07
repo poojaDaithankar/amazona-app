@@ -1,7 +1,21 @@
-const data={
+import bcrypt from 'bcryptjs';
+const data={ 
+  users: [
+  {
+    name: 'pooja',
+    email: 'admin@example.com',
+    password: bcrypt.hashSync('1234', 8),
+    isAdmin: true,
+  },
+  {
+    name: 'saurabh',
+    email: 'user@example.com',
+    password: bcrypt.hashSync('1234', 8),
+    isAdmin: false,
+  },
+],
     products: [
         {
-          _id: '1',
           name: 'Yoke Rayon Top',
           category: 'Top',
           image: '/images/p1.jpg',
@@ -13,7 +27,7 @@ const data={
           description: 'high quality Ladies product',
         },
         {
-            _id: '2',
+          
             name: 'Saakaa woman Top',
             category: 'Top',
             image: '/images/p2.jpg',
@@ -25,7 +39,7 @@ const data={
             description: 'high quality Ladies product',
           },
           {
-            _id: '3',
+           
             name: 'Jazzy Ben Top',
             category: 'Top',
             image: '/images/p3.jpg',
@@ -37,7 +51,7 @@ const data={
             description: 'high quality Ladies product',
           },
           {
-            _id: '4',
+           
             name: 'Zaphire Multicolored Top',
             category: 'Top',
             image: '/images/p4.jpg',
@@ -49,7 +63,7 @@ const data={
             description: 'high quality Ladies product',
           },
           {
-            _id: '5',
+           
             name: 'Fabrange regular Top',
             category: 'Top',
             image: '/images/p5.jpg',
@@ -61,7 +75,7 @@ const data={
             description: 'high quality Ladies product',
           },
           {
-            _id: '6',
+            
             name: 'Tunics Ladies Top',
             category: 'Top',
             image: '/images/p6.jpg',
